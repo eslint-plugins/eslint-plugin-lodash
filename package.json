@@ -3,10 +3,19 @@
   "version": "0.1.0",
   "description": "ESLint Plugin for use with the lodash library",
   "main": "lib/index.js",
+  "directories": {
+    "lib": "lib/"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "lib"
+  ],
   "scripts": {
     "test": "npm run lint && mocha && npm run build",
     "build": "rm -rf lib && babel src --out-dir lib",
-    "lint": "eslint ./"
+    "lint": "eslint ./",
+    "prepublish": "npm test"
   },
   "repository": {
     "type": "git",

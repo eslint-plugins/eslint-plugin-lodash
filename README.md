@@ -1,7 +1,8 @@
 ESLint-plugin-lodash
 ===================
 
-[![Build Status](https://travis-ci.org/eslint-plugins/eslint-plugin-lodash.svg?branch=master)](https://travis-ci.org/eslint-plugins/eslint-plugin-lodash)
+[![Travis Build Status][build-badge]][build]
+[![devDependency Status][dev-deps-badge]][dev-deps]
 
 lodash specific linting rules for ESLint
 
@@ -54,3 +55,9 @@ Finally, enable all of the rules that you would like to use.
 # License
 
 ESLint-plugin-lodash is licensed under the [MIT License](LICENSE).
+
+[build-badge]: https://travis-ci.org/eslint-plugins/eslint-plugin-lodash.svg?branch=master
+[build]: https://travis-ci.org/eslint-plugins/eslint-plugin-lodash
+
+[dev-deps-badge]: https://david-dm.org/eslint-plugins/eslint-plugin-lodash/dev-status.svg
+[dev-deps]: https://david-dm.org/eslint-plugins/eslint-plugin-lodash#info=devDependencies
