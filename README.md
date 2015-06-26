@@ -1,6 +1,8 @@
 ESLint-plugin-lodash
 ===================
 
+[![Build Status](https://travis-ci.org/eslint-plugins/eslint-plugin-lodash.svg?branch=master)](https://travis-ci.org/eslint-plugins/eslint-plugin-lodash)
+
 lodash specific linting rules for ESLint
 
 # Installation
