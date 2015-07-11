@@ -12,10 +12,12 @@
     "lib"
   ],
   "scripts": {
-    "test": "npm run lint && mocha && npm run build",
+    "test": "npm run lint && mocha",
     "build": "rm -rf lib && babel src --out-dir lib",
     "lint": "eslint ./",
-    "prepublish": "npm test"
+    "patch": "release patch",
+    "minor": "release minor",
+    "major": "release major"
   },
   "repository": {
     "type": "git",
