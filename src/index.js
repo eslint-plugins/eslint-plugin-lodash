@@ -1,5 +1,10 @@
 import importRule from './rules/import';
 
 export default {
-  'import': importRule
+  rules: {
+    'import': importRule
+  },
+  rulesConfig: {
+    'import': 1
+  }
 };
