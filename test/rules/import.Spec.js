@@ -1,9 +1,10 @@
-import EslintTester from 'eslint-tester';
 import eslint from 'eslint';
+import 'babel-eslint';
+import rule from '../../src/rules/import';
 
-let tester = new EslintTester(eslint.linter);
+const ruleTester = new eslint.RuleTester();
 
-tester.addRuleTest('src/rules/import', {
+ruleTester.run('lodash/import', rule, {
   valid: [
     {
       code: 'import "something"',
