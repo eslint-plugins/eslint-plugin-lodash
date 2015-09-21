@@ -40,6 +40,13 @@ ruleTester.run('lodash/import', rule, {
       }]
     },
     {
+      code: 'import "lodash-compat"',
+      parser: 'babel-eslint',
+      errors: [{
+        message: 'Importing the entire lodash library is not permitted, please import the specific functions you need'
+      }]
+    },
+    {
       code: 'import _ from "lodash"',
       parser: 'babel-eslint',
       errors: [{
