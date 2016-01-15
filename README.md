@@ -1,5 +1,7 @@
 ESLint-plugin-lodash
-===================
+====================
+
+**DEPRECATED IN FAVOR OF [eslint-plugin-lodash3](https://github.com/wix/eslint-plugin-lodash3)**
 
 [![Travis Build Status][build-badge]][build]
 [![devDependency Status][dev-deps-badge]][dev-deps]
