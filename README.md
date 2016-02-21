@@ -47,6 +47,8 @@ Finally, enable all of the rules that you would like to use.
 # List of supported rules
 
 * [import](docs/rules/import.md): Prevent importing the entire lodash (or lodash-compat) library.
+* [import-destructed](docs/rules/import-destructed.md): Prevent importing the entire lodash library without using destructuring assignments.
+
 
 ## To Do
 
